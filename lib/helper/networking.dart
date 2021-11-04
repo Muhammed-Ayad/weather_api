@@ -1,8 +1,10 @@
-import '../helper/location.dart';
-
-import '../models/weather_info.dart';
 import 'dart:convert';
+
 import 'package:http/http.dart' as http;
+
+import '../helper/location.dart';
+import '../models/weather_info.dart';
+
 
 Future<WeatherInto> fetchWeather() async {
   Location location = Location();
